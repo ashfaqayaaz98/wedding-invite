@@ -39,7 +39,17 @@ export default function WeddingInvitePreview(){
     return ()=> clearTimeout(t);
   },[]);
 
-  const Card = ({title,img,date,venue,mapLink,embed,uploadLink,galleryLink}) => (
+  type CardProps = {
+  title: string;
+  img: string;
+  date: string;
+  venue: string;
+  mapLink: string;
+  embed: string;
+  uploadLink: string;
+  galleryLink: string;
+};
+const Card = ({title,img,date,venue,mapLink,embed,uploadLink,galleryLink}: CardProps) => (
     <div className='mb-10'>
       <motion.button whileTap={{ scale: 0.97 }} onClick={()=>setOpen(open===title?null:title)}
         className='w-full border border-[#C9A86A] rounded-full p-4 text-2xl tracking-wide bg-white/5 backdrop-blur-sm'>
