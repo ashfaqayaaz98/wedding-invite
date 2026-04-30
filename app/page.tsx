@@ -44,9 +44,9 @@ type CardProps = {
   date: string;
   venue: string;
   mapLink: string;
-  embed: string;
-  uploadLink: string;
-  galleryLink: string;
+ embed?: string;
+uploadLink?: string;
+galleryLink?: string;
 };
 
 /* ---------------- CARD COMPONENT ---------------- */
@@ -155,12 +155,12 @@ const Card = ({
 /* ---------------- MAIN PAGE ---------------- */
 export default function WeddingInvitePreview() {
 
-  const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
+useEffect(() => {
+  requestAnimationFrame(() => {
     const t = setTimeout(() => setLoaded(true), 1600);
     return () => clearTimeout(t);
-  }, []);
+  });
+}, []);
 
   return (
     <div className='min-h-screen text-white overflow-x-hidden'>
@@ -210,7 +210,7 @@ export default function WeddingInvitePreview() {
           </motion.h1>
 
           <p className='mt-3 opacity-80'>اشفاق عفرین</p>
-          <p className='mt-10 animate-bounce'>Scroll ↓</p>
+          <p className='mt-10 opacity-70 animate-pulse'>Scroll ↓</p>
         </div>
       </section>
 
