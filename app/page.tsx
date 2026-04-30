@@ -30,7 +30,11 @@ const Monogram = ({ className = "" }: { className?: string }) => (
       x="50%"
       y="55%"
       textAnchor="middle"
-      style={{ fill: "url(#gold)", fontSize: 36, fontFamily: "Book Antiqua" }}
+      style={{
+        fill: "url(#gold)",
+        fontSize: 36,
+        fontFamily: "Book Antiqua",
+      }}
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 1 }}
@@ -110,7 +114,10 @@ const Card = ({
               >
                 <h3
                   className="text-4xl mb-3"
-                  style={{ fontFamily: "Book Antiqua", color: "#F2D28F" }}
+                  style={{
+                    fontFamily: "Book Antiqua",
+                    color: "#F2D28F",
+                  }}
                 >
                   {title}
                 </h3>
@@ -150,6 +157,7 @@ const Card = ({
               </motion.div>
             </div>
 
+            {/* ✅ FIXED MAP (NO BROKEN ATTRIBUTES INSIDE CARD PROPS) */}
             {embed && (
               <div className="p-4 bg-[#0F5132]">
                 <iframe
@@ -158,6 +166,7 @@ const Card = ({
                   height="250"
                   style={{ border: 0 }}
                   loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
                 />
               </div>
             )}
@@ -229,8 +238,8 @@ export default function WeddingInvitePreview() {
           venue="Utsav Function Hall, Visakhapatnam"
           img="/Nikah Card.png"
           mapLink="https://maps.app.goo.gl/nRqWLRaNQ7uSrWwj9"
-          embed="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.725105144662!2d83.18449037494142!3d17.66317408327179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a396969f24128bb%3A0xe49749c4b6477c06!2sUtsav%20Function%20Hall%20%7C%20Private%20%26%20Corporate%20Event%20Space%20in%20Gajuwaka!5e0!3m2!1sen!2sin!4v1777580321989!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-          uploadLink="https://drive.google.com/drive/folders/1WYVg-t1wT0UA6gkyiu-L0OB_lKYfWbmA?usp=sharing"
+          embed="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.725105144662!2d83.18449037494142!3d17.66317408327179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1"
+          uploadLink="https://drive.google.com/drive/folders/1WYVg-t1wT0UA6gkyiu-L0OB_lKYfWbmA"
           galleryLink="https://photos.app.goo.gl/wGdxgLtBZkmmKAgA6"
         />
 
@@ -240,8 +249,8 @@ export default function WeddingInvitePreview() {
           venue="Sobha Square, Visakhapatnam"
           img="/Valima Card.png"
           mapLink="https://maps.app.goo.gl/4Yv58zrMYsmSjtfJ9"
-          embed="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.2743644865054!2d83.18312267494198!3d17.684494583254185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39692262a40695%3A0xcb41735c1dfd47db!2sSobha%20Square!5e0!3m2!1sen!2sin!4v1777558666834!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-          uploadLink="https://drive.google.com/drive/folders/1gt-IBievVrjmowdF094bH6Vr5z4tfa8e?usp=sharing"
+          embed="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.2743644865054!2d83.18312267494198!3d17.684494583254185"
+          uploadLink="https://drive.google.com/drive/folders/1gt-IBievVrjmowdF094bH6Vr5z4tfa8e"
           galleryLink="https://photos.app.goo.gl/KUjcP2Z5BSxwgHNA9"
         />
       </section>
