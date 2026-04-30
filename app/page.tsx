@@ -156,10 +156,8 @@ const Card = ({
 export default function WeddingInvitePreview() {
 
 useEffect(() => {
-  requestAnimationFrame(() => {
-    const t = setTimeout(() => setLoaded(true), 1600);
-    return () => clearTimeout(t);
-  });
+  const t = window.setTimeout(() => setLoaded(true), 1600);
+  return () => clearTimeout(t);
 }, []);
 
   return (
