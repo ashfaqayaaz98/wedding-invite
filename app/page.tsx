@@ -206,7 +206,7 @@ export default function WeddingInvitePreview() {
       <section
         className="min-h-screen flex items-center justify-center px-6 relative text-center overflow-hidden"
         style={{
-          backgroundImage: `linear-gradient(rgba(15,81,50,0.7),rgba(15,81,50,0.95)), url("/Monsoon Background.png")`,
+          backgroundImage: `linear-gradient(rgba(15,81,50,0.7),rgba(15,81,50,0.95)), url("public/Monsoon Background.png")`,
           backgroundSize: "cover",
         }}
       >
@@ -236,7 +236,7 @@ export default function WeddingInvitePreview() {
           title="Nikah"
           date="7 June 2026 • 6:00 PM Insha Allah"
           venue="Utsav Function Hall, Visakhapatnam"
-          img="/Nikah Card.png"
+          img="public/Nikah Card.png"
           mapLink="https://maps.app.goo.gl/nRqWLRaNQ7uSrWwj9"
           embed="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.725105144662!2d83.18449037494142!3d17.66317408327179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1"
           uploadLink="https://drive.google.com/drive/folders/1WYVg-t1wT0UA6gkyiu-L0OB_lKYfWbmA"
@@ -247,7 +247,7 @@ export default function WeddingInvitePreview() {
           title="Valima"
           date="8 June 2026 • 7:00 PM Insha Allah"
           venue="Sobha Square, Visakhapatnam"
-          img="/Valima Card.png"
+          img="public/Valima Card.png"
           mapLink="https://maps.app.goo.gl/4Yv58zrMYsmSjtfJ9"
           embed="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.2743644865054!2d83.18312267494198!3d17.684494583254185"
           uploadLink="https://drive.google.com/drive/folders/1gt-IBievVrjmowdF094bH6Vr5z4tfa8e"
