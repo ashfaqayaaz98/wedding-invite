@@ -229,7 +229,7 @@ export default function WeddingInvitePreview() {
           venue="Utsav Function Hall, Visakhapatnam"
           img="/Nikah Card.png"
           mapLink="https://maps.app.goo.gl/nRqWLRaNQ7uSrWwj9"
-          embed="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.725105144662!2d83.18449037494142!3d17.66317408327179"
+          embed=<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.725105144662!2d83.18449037494142!3d17.66317408327179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a396969f24128bb%3A0xe49749c4b6477c06!2sUtsav%20Function%20Hall%20%7C%20Private%20%26%20Corporate%20Event%20Space%20in%20Gajuwaka!5e0!3m2!1sen!2sin!4v1777580321989!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           uploadLink="https://drive.google.com/drive/folders/1WYVg-t1wT0UA6gkyiu-L0OB_lKYfWbmA?usp=sharing"
           galleryLink="https://photos.app.goo.gl/wGdxgLtBZkmmKAgA6"
         />
@@ -240,7 +240,7 @@ export default function WeddingInvitePreview() {
           venue="Sobha Square, Visakhapatnam"
           img="/Valima Card.png"
           mapLink="https://maps.app.goo.gl/4Yv58zrMYsmSjtfJ9"
-          embed="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.2743644865054!2d83.18312267494198!3d17.684494583254185"
+          embed="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.2743644865054!2d83.18312267494198!3d17.684494583254185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39692262a40695%3A0xcb41735c1dfd47db!2sSobha%20Square!5e0!3m2!1sen!2sin!4v1777558666834!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
           uploadLink="https://drive.google.com/drive/folders/1gt-IBievVrjmowdF094bH6Vr5z4tfa8e?usp=sharing"
           galleryLink="https://photos.app.goo.gl/KUjcP2Z5BSxwgHNA9"
         />
